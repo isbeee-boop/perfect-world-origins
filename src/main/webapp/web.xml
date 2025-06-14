@@ -12,12 +12,12 @@
             <param-name>beeproductionConfig</param-name>
             <param-value>/META-INF/spring-servlet.xml</param-value>
         </init-param>
-        <load-on-startup>1</load-on-startup>
+        <load-on-startup>3</load-on-startup>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>beeproduction</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>*.jsp</url-pattern>
     </servlet-mapping>
 
     <!-- Optional UTF-8 character encoding filter -->
